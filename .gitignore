@@ -1,0 +1,24 @@
+# Configurações privadas e segredos
+config/guardiao_supabase_private.php
+.env
+.env.local
+
+# Armazenamento temporário e caches
+storage/cache/
+storage/sessions/
+storage/*.json
+storage/*.log
+storage/*.tmp
+storage/generate_tcc_sql.php
+
+# Arquivos de IDE e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs do servidor
+*.log
+error_log
+php_errors.log

@@ -1,0 +1,37 @@
+/* Portal ONG V30: mesma linguagem visual do painel administrativo V28, com funções próprias. */
+.ga-ngo .ga-main{max-width:1390px}
+.ga-ngo .ga-metric strong{font-variant-numeric:tabular-nums}
+.ga-ngo .ga-page-heading p,.ga-ngo .ga-empty,.ga-ngo .ga-metric small,.ga-ngo .ga-detail-section p{color:#4d6559;opacity:1}
+.ga-ngo .ga-table-wrap{overflow-x:auto}
+.ga-ngo .ga-alert-warning{line-height:1.6}
+.ga-ngo .ga-edit-form label,.ngo-request-actions label,.ngo-form label{display:flex;flex-direction:column;gap:7px;color:#345646;font-size:12px;font-weight:740}
+.ga-ngo .ga-edit-form select,.ngo-request-actions select,.ngo-form input,.ngo-form select,.ngo-form textarea{background:#fff;width:100%;max-width:100%;min-width:0;border:1px solid #cbded2;border-radius:9px;min-height:43px;padding:10px 12px;color:#17372a;outline-offset:3px;font:inherit}
+.ga-ngo .ga-edit-form{display:flex;flex-direction:column;gap:14px}
+.ga-ngo .ga-case-detail{overflow-wrap:anywhere}
+.ga-ngo .ga-edit-form .ga-button{margin-top:2px}
+.ngo-request{padding:24px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(240px,.6fr);gap:22px;border-bottom:1px solid #edf1ed}
+.ngo-request:last-child{border-bottom:0}
+.ngo-request-main{min-width:0}
+.ngo-request-main h2{font-size:19px;margin:12px 0 10px}
+.ngo-request-main p{font-size:13px;color:#35584a;line-height:1.6;margin-bottom:9px}
+.ngo-request-main .ga-report{margin-top:14px}
+.ngo-request-actions{background:#f3f8f4;border:1px solid #dceae0;border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:12px;align-self:start}
+.ngo-content-split{display:grid;grid-template-columns:minmax(230px,.75fr) minmax(0,1.25fr);gap:20px;align-items:start}
+.ngo-animal-item{padding:16px 22px;border-bottom:1px solid #edf2ed;display:flex;align-items:center;gap:14px}
+.ngo-animal-item:last-child{border-bottom:0}.ngo-animal-item img{height:62px;width:76px;object-fit:cover;border-radius:10px;background:#eef4f0}
+.ngo-animal-item strong,.ngo-animal-item small{display:block}.ngo-animal-item strong{font-size:13px}.ngo-animal-item small{font-size:11px;color:#587064;margin-top:4px}
+.ngo-form-section{padding:26px}.ngo-form-section>h2{font-size:19px;margin-bottom:9px}.ngo-form-section>p{font-size:13px;color:#466254;margin-bottom:20px}
+.ngo-form{display:flex;flex-direction:column;gap:20px}.ngo-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.ngo-span-all{grid-column:1/-1}
+.ngo-form textarea{resize:vertical;min-height:100px}
+.ngo-form input[type=file]{font-size:11px}.ngo-form button{align-self:flex-start}
+.ngo-profile{max-width:950px}
+@media(max-width:1100px){.ngo-content-split{grid-template-columns:1fr}.ngo-request{grid-template-columns:1fr}}
+@media(max-width:600px){.ngo-form-grid{grid-template-columns:1fr}.ngo-span-all{grid-column:auto}.ngo-request{padding:18px}.ngo-form-section{padding:20px}.ga-ngo .ga-top-actions{gap:3px}}
+
+/* V31: feed compartilhado, sem contato pessoal nas ONGs */
+.ga-ngo .ga-privacy-note{border-radius:12px;border:1px solid #cee7da;background:#f0f9f4;padding:12px 14px;color:#214f39;font-size:13px;opacity:1}
+.ga-ngo .ga-page-heading p,.ga-ngo .ga-info-grid dd,.ga-ngo .ga-report{opacity:1;color:#243f33}
+
+.ngo-case-tabs{display:flex;gap:10px;margin:0 0 16px;flex-wrap:wrap}.ngo-case-tabs a{background:#fff;border:1px solid #dae9dd;border-radius:12px;color:#20503b;font-weight:800;text-decoration:none;padding:12px 15px;font-size:13px}.ngo-case-tabs a[aria-current=page]{background:#174a37;color:#fff;border-color:#174a37}.ngo-case-tabs b{margin-left:7px;opacity:.75}
+
+.ga-network-update{background:#e9f7ed;border:1px solid #addac0;border-radius:12px;padding:14px 17px;font-weight:750;color:#174b33;margin-bottom:18px;line-height:1.5}.ga-network-update a{color:#134832;text-decoration:underline;font-weight:850}.ga-network-update[hidden]{display:none}

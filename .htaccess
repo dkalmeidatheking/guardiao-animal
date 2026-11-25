@@ -1,0 +1,5 @@
+Options -Indexes
+DirectoryIndex index.php
+<FilesMatch "^(CREDENCIAIS_ADMIN\.txt|.*\.(?:md|sql|bak|log|zip)|\.env(?:\..*)?|\.user\.ini)$">
+  Require all denied
+</FilesMatch>
