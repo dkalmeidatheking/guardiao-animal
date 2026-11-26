@@ -21,6 +21,7 @@
       <span>Juntos por um mundo mais gentil</span>
       <span class="top-heart">♡</span>
       <div class="top-social" aria-label="Atalhos">
+        <a href="<?=base_url('consultar.php')?>" style="font-weight:600;color:#ccebe2">🔍 Consultar protocolo</a>
         <a href="<?=base_url('mapa.php')?>">Mapa</a>
         <a href="<?=base_url('ongs.php')?>">ONGs</a>
         <a href="<?=base_url('contato.php')?>">Contato</a>
@@ -40,7 +41,7 @@
     <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
       <a class="<?=in_array($current,['index.php'])?'current':''?>" href="<?=base_url()?>">Início</a>
       <a class="<?=in_array($current,['denuncia.php'])?'current':''?>" href="<?=base_url('denuncia.php')?>">Denunciar</a>
-      <a class="<?=in_array($current,['consultar.php'])?'current':''?>" href="<?=base_url('consultar.php')?>">Acompanhar</a>
+      <a class="<?=in_array($current,['consultar.php'])?'current':''?>" href="<?=base_url('consultar.php')?>">Consultar protocolo</a>
       <a class="<?=in_array($current,['mapa.php'])?'current':''?>" href="<?=base_url('mapa.php')?>">Mapa</a>
       <a class="<?=in_array($current,['ongs.php','ong.php'])?'current':''?>" href="<?=base_url('ongs.php')?>">ONGs</a>
       <a class="<?=in_array($current,['doacao.php'])?'current':''?>" href="<?=base_url('doacao.php')?>">Doar</a>
